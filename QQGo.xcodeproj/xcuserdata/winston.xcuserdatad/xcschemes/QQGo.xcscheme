@@ -5,6 +5,78 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4478D6D51AE62AAD0045705C"
+               BuildableName = "QQGo.app"
+               BlueprintName = "QQGo"
+               ReferencedContainer = "container:QQGo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4478D6ED1AE62AAD0045705C"
+               BuildableName = "QQGoTests.xctest"
+               BlueprintName = "QQGoTests"
+               ReferencedContainer = "container:QQGo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4459D03C1B1069C5001AA1AC"
+               BuildableName = "coreActionSheetPickerTests.xctest"
+               BlueprintName = "coreActionSheetPickerTests"
+               ReferencedContainer = "container:QQGo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4459D0611B106A38001AA1AC"
+               BuildableName = "coreActionSheetPickerrTests.xctest"
+               BlueprintName = "coreActionSheetPickerrTests"
+               ReferencedContainer = "container:QQGo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4459D0A41B106C26001AA1AC"
+               BuildableName = "CoreActionSheetPickerTests.xctest"
+               BlueprintName = "CoreActionSheetPickerTests"
+               ReferencedContainer = "container:QQGo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -12,7 +84,56 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4478D6ED1AE62AAD0045705C"
+               BuildableName = "QQGoTests.xctest"
+               BlueprintName = "QQGoTests"
+               ReferencedContainer = "container:QQGo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4459D03C1B1069C5001AA1AC"
+               BuildableName = "coreActionSheetPickerTests.xctest"
+               BlueprintName = "coreActionSheetPickerTests"
+               ReferencedContainer = "container:QQGo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4459D0611B106A38001AA1AC"
+               BuildableName = "coreActionSheetPickerrTests.xctest"
+               BlueprintName = "coreActionSheetPickerrTests"
+               ReferencedContainer = "container:QQGo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4459D0A41B106C26001AA1AC"
+               BuildableName = "CoreActionSheetPickerTests.xctest"
+               BlueprintName = "CoreActionSheetPickerTests"
+               ReferencedContainer = "container:QQGo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4478D6D51AE62AAD0045705C"
+            BuildableName = "QQGo.app"
+            BlueprintName = "QQGo"
+            ReferencedContainer = "container:QQGo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -23,6 +144,16 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4478D6D51AE62AAD0045705C"
+            BuildableName = "QQGo.app"
+            BlueprintName = "QQGo"
+            ReferencedContainer = "container:QQGo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -32,6 +163,16 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4478D6D51AE62AAD0045705C"
+            BuildableName = "QQGo.app"
+            BlueprintName = "QQGo"
+            ReferencedContainer = "container:QQGo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

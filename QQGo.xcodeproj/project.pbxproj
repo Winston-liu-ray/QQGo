@@ -7,16 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		444A5D691B186F4F0067E83D /* areaNumber.json in Resources */ = {isa = PBXBuildFile; fileRef = 444A5D681B186F4F0067E83D /* areaNumber.json */; };
+		4459D0A01B106C26001AA1AC /* CoreActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4459D09F1B106C26001AA1AC /* CoreActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4459D0A61B106C26001AA1AC /* CoreActionSheetPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4459D09B1B106C26001AA1AC /* CoreActionSheetPicker.framework */; };
+		4459D0AF1B106C27001AA1AC /* CoreActionSheetPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4459D0AE1B106C26001AA1AC /* CoreActionSheetPickerTests.m */; };
+		4459D0B21B106C27001AA1AC /* CoreActionSheetPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4459D09B1B106C26001AA1AC /* CoreActionSheetPicker.framework */; };
+		4459D0B31B106C27001AA1AC /* CoreActionSheetPicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4459D09B1B106C26001AA1AC /* CoreActionSheetPicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4459D0CC1B106C74001AA1AC /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4459D0BA1B106C74001AA1AC /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4459D0CD1B106C74001AA1AC /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4459D0BB1B106C74001AA1AC /* AbstractActionSheetPicker.m */; };
+		4459D0CE1B106C74001AA1AC /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4459D0BC1B106C74001AA1AC /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4459D0CF1B106C74001AA1AC /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4459D0BD1B106C74001AA1AC /* ActionSheetCustomPicker.m */; };
+		4459D0D01B106C74001AA1AC /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4459D0BE1B106C74001AA1AC /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4459D0D11B106C74001AA1AC /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4459D0BF1B106C74001AA1AC /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4459D0D21B106C74001AA1AC /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4459D0C01B106C74001AA1AC /* ActionSheetDatePicker.m */; };
+		4459D0D31B106C74001AA1AC /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4459D0C11B106C74001AA1AC /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4459D0D41B106C74001AA1AC /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4459D0C21B106C74001AA1AC /* ActionSheetDistancePicker.m */; };
+		4459D0D51B106C74001AA1AC /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4459D0C31B106C74001AA1AC /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4459D0D61B106C74001AA1AC /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4459D0C41B106C74001AA1AC /* ActionSheetLocalePicker.m */; };
+		4459D0D71B106C74001AA1AC /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4459D0C51B106C74001AA1AC /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4459D0D81B106C74001AA1AC /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4459D0C61B106C74001AA1AC /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4459D0D91B106C74001AA1AC /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4459D0C71B106C74001AA1AC /* ActionSheetStringPicker.m */; };
+		4459D0DA1B106C74001AA1AC /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4459D0C81B106C74001AA1AC /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4459D0DB1B106C74001AA1AC /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4459D0C91B106C74001AA1AC /* DistancePickerView.m */; };
+		4459D0DC1B106C74001AA1AC /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 4459D0CA1B106C74001AA1AC /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4459D0DD1B106C74001AA1AC /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4459D0CB1B106C74001AA1AC /* SWActionSheet.m */; };
+		446B86921AF510B800736532 /* SalesmanEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B86911AF510B800736532 /* SalesmanEdit.swift */; };
 		4478D6DC1AE62AAD0045705C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4478D6DB1AE62AAD0045705C /* AppDelegate.swift */; };
 		4478D6DF1AE62AAD0045705C /* QQGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4478D6DD1AE62AAD0045705C /* QQGo.xcdatamodeld */; };
-		4478D6E11AE62AAD0045705C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4478D6E01AE62AAD0045705C /* ViewController.swift */; };
+		4478D6E11AE62AAD0045705C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4478D6E01AE62AAD0045705C /* Login.swift */; };
 		4478D6E41AE62AAD0045705C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4478D6E21AE62AAD0045705C /* Main.storyboard */; };
 		4478D6E61AE62AAD0045705C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4478D6E51AE62AAD0045705C /* Images.xcassets */; };
 		4478D6E91AE62AAD0045705C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4478D6E71AE62AAD0045705C /* LaunchScreen.xib */; };
 		4478D6F51AE62AAD0045705C /* QQGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4478D6F41AE62AAD0045705C /* QQGoTests.swift */; };
+		4486DD261AF68C40009DB727 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4486DD251AF68C40009DB727 /* MainPage.swift */; };
+		44A075A61AEDDF4C002ABA63 /* NewAnObjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A075A51AEDDF4C002ABA63 /* NewAnObjectController.swift */; };
+		44A075A81AEE741D002ABA63 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A075A71AEE741D002ABA63 /* RegisterController.swift */; };
+		44A075AC1AEE7EB1002ABA63 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A075AB1AEE7EB1002ABA63 /* Data.swift */; };
+		44C0DFDD1B0199A6007BADB3 /* EditInfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C0DFDC1B0199A6007BADB3 /* EditInfoPage.swift */; };
+		44C0DFDF1B03803D007BADB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C0DFDE1B03803D007BADB3 /* ViewController.swift */; };
+		44C0DFE11B03ABC1007BADB3 /* CheckRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C0DFE01B03ABC1007BADB3 /* CheckRegister.swift */; };
+		44C0DFE91B048CC0007BADB3 /* RadioButtonON.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C0DFE81B048CC0007BADB3 /* RadioButtonON.png */; };
+		44C0DFEB1B04931C007BADB3 /* RadioButtonDOWN.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C0DFEA1B04931C007BADB3 /* RadioButtonDOWN.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4459D0A71B106C26001AA1AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4478D6CE1AE62AAD0045705C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4459D09A1B106C26001AA1AC;
+			remoteInfo = CoreActionSheetPicker;
+		};
+		4459D0A91B106C26001AA1AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4478D6CE1AE62AAD0045705C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4478D6D51AE62AAD0045705C;
+			remoteInfo = QQGo;
+		};
+		4459D0B01B106C27001AA1AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4478D6CE1AE62AAD0045705C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4459D09A1B106C26001AA1AC;
+			remoteInfo = CoreActionSheetPicker;
+		};
 		4478D6EF1AE62AAD0045705C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4478D6CE1AE62AAD0045705C /* Project object */;
@@ -26,25 +81,93 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4459D04F1B1069C5001AA1AC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4459D0B31B106C27001AA1AC /* CoreActionSheetPicker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		444A5D681B186F4F0067E83D /* areaNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = areaNumber.json; sourceTree = "<group>"; };
+		4459D0451B1069C5001AA1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4459D0461B1069C5001AA1AC /* coreActionSheetPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreActionSheetPickerTests.swift; sourceTree = "<group>"; };
+		4459D09B1B106C26001AA1AC /* CoreActionSheetPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreActionSheetPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4459D09E1B106C26001AA1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4459D09F1B106C26001AA1AC /* CoreActionSheetPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreActionSheetPicker.h; sourceTree = "<group>"; };
+		4459D0A51B106C26001AA1AC /* CoreActionSheetPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreActionSheetPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4459D0AD1B106C26001AA1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4459D0AE1B106C26001AA1AC /* CoreActionSheetPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreActionSheetPickerTests.m; sourceTree = "<group>"; };
+		4459D0BA1B106C74001AA1AC /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		4459D0BB1B106C74001AA1AC /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		4459D0BC1B106C74001AA1AC /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		4459D0BD1B106C74001AA1AC /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		4459D0BE1B106C74001AA1AC /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		4459D0BF1B106C74001AA1AC /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		4459D0C01B106C74001AA1AC /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		4459D0C11B106C74001AA1AC /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		4459D0C21B106C74001AA1AC /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		4459D0C31B106C74001AA1AC /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		4459D0C41B106C74001AA1AC /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		4459D0C51B106C74001AA1AC /* ActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetPicker.h; sourceTree = "<group>"; };
+		4459D0C61B106C74001AA1AC /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		4459D0C71B106C74001AA1AC /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		4459D0C81B106C74001AA1AC /* DistancePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistancePickerView.h; sourceTree = "<group>"; };
+		4459D0C91B106C74001AA1AC /* DistancePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistancePickerView.m; sourceTree = "<group>"; };
+		4459D0CA1B106C74001AA1AC /* SWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWActionSheet.h; sourceTree = "<group>"; };
+		4459D0CB1B106C74001AA1AC /* SWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWActionSheet.m; sourceTree = "<group>"; };
+		446B86911AF510B800736532 /* SalesmanEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesmanEdit.swift; sourceTree = "<group>"; };
 		4478D6D61AE62AAD0045705C /* QQGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4478D6DA1AE62AAD0045705C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4478D6DB1AE62AAD0045705C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4478D6DE1AE62AAD0045705C /* QQGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QQGo.xcdatamodel; sourceTree = "<group>"; };
-		4478D6E01AE62AAD0045705C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4478D6E01AE62AAD0045705C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		4478D6E31AE62AAD0045705C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4478D6E51AE62AAD0045705C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4478D6E81AE62AAD0045705C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4478D6EE1AE62AAD0045705C /* QQGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4478D6F31AE62AAD0045705C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4478D6F41AE62AAD0045705C /* QQGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQGoTests.swift; sourceTree = "<group>"; };
+		4486DD251AF68C40009DB727 /* MainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		44A075A51AEDDF4C002ABA63 /* NewAnObjectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAnObjectController.swift; sourceTree = "<group>"; };
+		44A075A71AEE741D002ABA63 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		44A075AB1AEE7EB1002ABA63 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		44C0DFDC1B0199A6007BADB3 /* EditInfoPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditInfoPage.swift; sourceTree = "<group>"; };
+		44C0DFDE1B03803D007BADB3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44C0DFE01B03ABC1007BADB3 /* CheckRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckRegister.swift; sourceTree = "<group>"; };
+		44C0DFE81B048CC0007BADB3 /* RadioButtonON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RadioButtonON.png; sourceTree = "<group>"; };
+		44C0DFEA1B04931C007BADB3 /* RadioButtonDOWN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RadioButtonDOWN.png; sourceTree = "<group>"; };
+		44C0DFEE1B05F20A007BADB3 /* QQGo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QQGo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4459D0971B106C26001AA1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4459D0A21B106C26001AA1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4459D0A61B106C26001AA1AC /* CoreActionSheetPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4478D6D31AE62AAD0045705C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4459D0B21B106C27001AA1AC /* CoreActionSheetPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,11 +181,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4459D0431B1069C5001AA1AC /* coreActionSheetPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4459D0461B1069C5001AA1AC /* coreActionSheetPickerTests.swift */,
+				4459D0441B1069C5001AA1AC /* Supporting Files */,
+			);
+			path = coreActionSheetPickerTests;
+			sourceTree = "<group>";
+		};
+		4459D0441B1069C5001AA1AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4459D0451B1069C5001AA1AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4459D09C1B106C26001AA1AC /* CoreActionSheetPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4459D0BA1B106C74001AA1AC /* AbstractActionSheetPicker.h */,
+				4459D0BB1B106C74001AA1AC /* AbstractActionSheetPicker.m */,
+				4459D0BC1B106C74001AA1AC /* ActionSheetCustomPicker.h */,
+				4459D0BD1B106C74001AA1AC /* ActionSheetCustomPicker.m */,
+				4459D0BE1B106C74001AA1AC /* ActionSheetCustomPickerDelegate.h */,
+				4459D0BF1B106C74001AA1AC /* ActionSheetDatePicker.h */,
+				4459D0C01B106C74001AA1AC /* ActionSheetDatePicker.m */,
+				4459D0C11B106C74001AA1AC /* ActionSheetDistancePicker.h */,
+				4459D0C21B106C74001AA1AC /* ActionSheetDistancePicker.m */,
+				4459D0C31B106C74001AA1AC /* ActionSheetLocalePicker.h */,
+				4459D0C41B106C74001AA1AC /* ActionSheetLocalePicker.m */,
+				4459D0C51B106C74001AA1AC /* ActionSheetPicker.h */,
+				4459D0C61B106C74001AA1AC /* ActionSheetStringPicker.h */,
+				4459D0C71B106C74001AA1AC /* ActionSheetStringPicker.m */,
+				4459D0C81B106C74001AA1AC /* DistancePickerView.h */,
+				4459D0C91B106C74001AA1AC /* DistancePickerView.m */,
+				4459D0CA1B106C74001AA1AC /* SWActionSheet.h */,
+				4459D0CB1B106C74001AA1AC /* SWActionSheet.m */,
+				4459D09F1B106C26001AA1AC /* CoreActionSheetPicker.h */,
+				4459D09D1B106C26001AA1AC /* Supporting Files */,
+			);
+			path = CoreActionSheetPicker;
+			sourceTree = "<group>";
+		};
+		4459D09D1B106C26001AA1AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4459D09E1B106C26001AA1AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4459D0AB1B106C26001AA1AC /* CoreActionSheetPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4459D0AE1B106C26001AA1AC /* CoreActionSheetPickerTests.m */,
+				4459D0AC1B106C26001AA1AC /* Supporting Files */,
+			);
+			path = CoreActionSheetPickerTests;
+			sourceTree = "<group>";
+		};
+		4459D0AC1B106C26001AA1AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4459D0AD1B106C26001AA1AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		4478D6CD1AE62AAD0045705C = {
 			isa = PBXGroup;
 			children = (
 				4478D6D81AE62AAD0045705C /* QQGo */,
 				4478D6F11AE62AAD0045705C /* QQGoTests */,
+				4459D0431B1069C5001AA1AC /* coreActionSheetPickerTests */,
+				4459D09C1B106C26001AA1AC /* CoreActionSheetPicker */,
+				4459D0AB1B106C26001AA1AC /* CoreActionSheetPickerTests */,
 				4478D6D71AE62AAD0045705C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +267,8 @@
 			children = (
 				4478D6D61AE62AAD0045705C /* QQGo.app */,
 				4478D6EE1AE62AAD0045705C /* QQGoTests.xctest */,
+				4459D09B1B106C26001AA1AC /* CoreActionSheetPicker.framework */,
+				4459D0A51B106C26001AA1AC /* CoreActionSheetPickerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,12 +276,17 @@
 		4478D6D81AE62AAD0045705C /* QQGo */ = {
 			isa = PBXGroup;
 			children = (
-				4478D6DB1AE62AAD0045705C /* AppDelegate.swift */,
-				4478D6E01AE62AAD0045705C /* ViewController.swift */,
+				4478D6E01AE62AAD0045705C /* Login.swift */,
 				4478D6E21AE62AAD0045705C /* Main.storyboard */,
-				4478D6E51AE62AAD0045705C /* Images.xcassets */,
-				4478D6E71AE62AAD0045705C /* LaunchScreen.xib */,
-				4478D6DD1AE62AAD0045705C /* QQGo.xcdatamodeld */,
+				44C0DFDE1B03803D007BADB3 /* ViewController.swift */,
+				44C0DFDC1B0199A6007BADB3 /* EditInfoPage.swift */,
+				4486DD251AF68C40009DB727 /* MainPage.swift */,
+				446B86911AF510B800736532 /* SalesmanEdit.swift */,
+				44A075A71AEE741D002ABA63 /* RegisterController.swift */,
+				44A075AB1AEE7EB1002ABA63 /* Data.swift */,
+				44A075A51AEDDF4C002ABA63 /* NewAnObjectController.swift */,
+				4478D6DB1AE62AAD0045705C /* AppDelegate.swift */,
+				44C0DFE01B03ABC1007BADB3 /* CheckRegister.swift */,
 				4478D6D91AE62AAD0045705C /* Supporting Files */,
 			);
 			path = QQGo;
@@ -93,7 +295,14 @@
 		4478D6D91AE62AAD0045705C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				444A5D681B186F4F0067E83D /* areaNumber.json */,
+				4478D6E51AE62AAD0045705C /* Images.xcassets */,
+				44C0DFE81B048CC0007BADB3 /* RadioButtonON.png */,
+				44C0DFEA1B04931C007BADB3 /* RadioButtonDOWN.png */,
+				4478D6DD1AE62AAD0045705C /* QQGo.xcdatamodeld */,
+				4478D6E71AE62AAD0045705C /* LaunchScreen.xib */,
 				4478D6DA1AE62AAD0045705C /* Info.plist */,
+				44C0DFEE1B05F20A007BADB3 /* QQGo-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,7 +326,65 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4459D0981B106C26001AA1AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4459D0D81B106C74001AA1AC /* ActionSheetStringPicker.h in Headers */,
+				4459D0CC1B106C74001AA1AC /* AbstractActionSheetPicker.h in Headers */,
+				4459D0DC1B106C74001AA1AC /* SWActionSheet.h in Headers */,
+				4459D0D11B106C74001AA1AC /* ActionSheetDatePicker.h in Headers */,
+				4459D0A01B106C26001AA1AC /* CoreActionSheetPicker.h in Headers */,
+				4459D0D31B106C74001AA1AC /* ActionSheetDistancePicker.h in Headers */,
+				4459D0D51B106C74001AA1AC /* ActionSheetLocalePicker.h in Headers */,
+				4459D0DA1B106C74001AA1AC /* DistancePickerView.h in Headers */,
+				4459D0D01B106C74001AA1AC /* ActionSheetCustomPickerDelegate.h in Headers */,
+				4459D0D71B106C74001AA1AC /* ActionSheetPicker.h in Headers */,
+				4459D0CE1B106C74001AA1AC /* ActionSheetCustomPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		4459D09A1B106C26001AA1AC /* CoreActionSheetPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4459D0B41B106C27001AA1AC /* Build configuration list for PBXNativeTarget "CoreActionSheetPicker" */;
+			buildPhases = (
+				4459D0961B106C26001AA1AC /* Sources */,
+				4459D0971B106C26001AA1AC /* Frameworks */,
+				4459D0981B106C26001AA1AC /* Headers */,
+				4459D0991B106C26001AA1AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreActionSheetPicker;
+			productName = CoreActionSheetPicker;
+			productReference = 4459D09B1B106C26001AA1AC /* CoreActionSheetPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4459D0A41B106C26001AA1AC /* CoreActionSheetPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4459D0B71B106C27001AA1AC /* Build configuration list for PBXNativeTarget "CoreActionSheetPickerTests" */;
+			buildPhases = (
+				4459D0A11B106C26001AA1AC /* Sources */,
+				4459D0A21B106C26001AA1AC /* Frameworks */,
+				4459D0A31B106C26001AA1AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4459D0A81B106C26001AA1AC /* PBXTargetDependency */,
+				4459D0AA1B106C26001AA1AC /* PBXTargetDependency */,
+			);
+			name = CoreActionSheetPickerTests;
+			productName = CoreActionSheetPickerTests;
+			productReference = 4459D0A51B106C26001AA1AC /* CoreActionSheetPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4478D6D51AE62AAD0045705C /* QQGo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4478D6F81AE62AAD0045705C /* Build configuration list for PBXNativeTarget "QQGo" */;
@@ -125,10 +392,12 @@
 				4478D6D21AE62AAD0045705C /* Sources */,
 				4478D6D31AE62AAD0045705C /* Frameworks */,
 				4478D6D41AE62AAD0045705C /* Resources */,
+				4459D04F1B1069C5001AA1AC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4459D0B11B106C27001AA1AC /* PBXTargetDependency */,
 			);
 			name = QQGo;
 			productName = QQGo;
@@ -162,6 +431,13 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Ｗinston";
 				TargetAttributes = {
+					4459D09A1B106C26001AA1AC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					4459D0A41B106C26001AA1AC = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 4478D6D51AE62AAD0045705C;
+					};
 					4478D6D51AE62AAD0045705C = {
 						CreatedOnToolsVersion = 6.3;
 					};
@@ -186,18 +462,37 @@
 			targets = (
 				4478D6D51AE62AAD0045705C /* QQGo */,
 				4478D6ED1AE62AAD0045705C /* QQGoTests */,
+				4459D09A1B106C26001AA1AC /* CoreActionSheetPicker */,
+				4459D0A41B106C26001AA1AC /* CoreActionSheetPickerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4459D0991B106C26001AA1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4459D0A31B106C26001AA1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4478D6D41AE62AAD0045705C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C0DFE91B048CC0007BADB3 /* RadioButtonON.png in Resources */,
 				4478D6E41AE62AAD0045705C /* Main.storyboard in Resources */,
 				4478D6E91AE62AAD0045705C /* LaunchScreen.xib in Resources */,
+				444A5D691B186F4F0067E83D /* areaNumber.json in Resources */,
 				4478D6E61AE62AAD0045705C /* Images.xcassets in Resources */,
+				44C0DFEB1B04931C007BADB3 /* RadioButtonDOWN.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,12 +506,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4459D0961B106C26001AA1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4459D0D91B106C74001AA1AC /* ActionSheetStringPicker.m in Sources */,
+				4459D0D21B106C74001AA1AC /* ActionSheetDatePicker.m in Sources */,
+				4459D0D61B106C74001AA1AC /* ActionSheetLocalePicker.m in Sources */,
+				4459D0DD1B106C74001AA1AC /* SWActionSheet.m in Sources */,
+				4459D0CF1B106C74001AA1AC /* ActionSheetCustomPicker.m in Sources */,
+				4459D0D41B106C74001AA1AC /* ActionSheetDistancePicker.m in Sources */,
+				4459D0CD1B106C74001AA1AC /* AbstractActionSheetPicker.m in Sources */,
+				4459D0DB1B106C74001AA1AC /* DistancePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4459D0A11B106C26001AA1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4459D0AF1B106C27001AA1AC /* CoreActionSheetPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4478D6D21AE62AAD0045705C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4478D6E11AE62AAD0045705C /* ViewController.swift in Sources */,
+				44C0DFDF1B03803D007BADB3 /* ViewController.swift in Sources */,
+				44A075A61AEDDF4C002ABA63 /* NewAnObjectController.swift in Sources */,
+				44A075AC1AEE7EB1002ABA63 /* Data.swift in Sources */,
+				4478D6E11AE62AAD0045705C /* Login.swift in Sources */,
+				4486DD261AF68C40009DB727 /* MainPage.swift in Sources */,
 				4478D6DC1AE62AAD0045705C /* AppDelegate.swift in Sources */,
+				44A075A81AEE741D002ABA63 /* RegisterController.swift in Sources */,
+				44C0DFDD1B0199A6007BADB3 /* EditInfoPage.swift in Sources */,
+				446B86921AF510B800736532 /* SalesmanEdit.swift in Sources */,
+				44C0DFE11B03ABC1007BADB3 /* CheckRegister.swift in Sources */,
 				4478D6DF1AE62AAD0045705C /* QQGo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +558,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4459D0A81B106C26001AA1AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4459D09A1B106C26001AA1AC /* CoreActionSheetPicker */;
+			targetProxy = 4459D0A71B106C26001AA1AC /* PBXContainerItemProxy */;
+		};
+		4459D0AA1B106C26001AA1AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4478D6D51AE62AAD0045705C /* QQGo */;
+			targetProxy = 4459D0A91B106C26001AA1AC /* PBXContainerItemProxy */;
+		};
+		4459D0B11B106C27001AA1AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4459D09A1B106C26001AA1AC /* CoreActionSheetPicker */;
+			targetProxy = 4459D0B01B106C27001AA1AC /* PBXContainerItemProxy */;
+		};
 		4478D6F01AE62AAD0045705C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4478D6D51AE62AAD0045705C /* QQGo */;
@@ -259,6 +600,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4459D0B51B106C27001AA1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreActionSheetPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4459D0B61B106C27001AA1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CoreActionSheetPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4459D0B81B106C27001AA1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreActionSheetPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQGo.app/QQGo";
+			};
+			name = Debug;
+		};
+		4459D0B91B106C27001AA1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreActionSheetPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQGo.app/QQGo";
+			};
+			name = Release;
+		};
 		4478D6F61AE62AAD0045705C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -347,6 +762,7 @@
 				INFOPLIST_FILE = QQGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QQGo-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -357,6 +773,7 @@
 				INFOPLIST_FILE = QQGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QQGo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -397,6 +814,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4459D0B41B106C27001AA1AC /* Build configuration list for PBXNativeTarget "CoreActionSheetPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4459D0B51B106C27001AA1AC /* Debug */,
+				4459D0B61B106C27001AA1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4459D0B71B106C27001AA1AC /* Build configuration list for PBXNativeTarget "CoreActionSheetPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4459D0B81B106C27001AA1AC /* Debug */,
+				4459D0B91B106C27001AA1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4478D6D11AE62AAD0045705C /* Build configuration list for PBXProject "QQGo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -413,6 +848,7 @@
 				4478D6FA1AE62AAD0045705C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4478D6FB1AE62AAD0045705C /* Build configuration list for PBXNativeTarget "QQGoTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +857,7 @@
 				4478D6FD1AE62AAD0045705C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

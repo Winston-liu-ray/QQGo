@@ -4,14 +4,59 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CoreActionSheetPicker.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>QQGo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>coreActionSheetPicker.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>coreActionSheetPickerr.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4459D0321B1069C5001AA1AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4459D03C1B1069C5001AA1AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4459D0571B106A38001AA1AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4459D0611B106A38001AA1AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4459D09A1B106C26001AA1AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4459D0A41B106C26001AA1AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4478D6D51AE62AAD0045705C</key>
 		<dict>
 			<key>primary</key>
